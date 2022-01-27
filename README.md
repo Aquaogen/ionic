@@ -1,21 +1,14 @@
 # Ionic
 
-For building pure javascript web applications.
+## Install
 
 ```
-cd C:\Users\Administrator\Desktop\
-git clone https://github.com/Aquaogen/ionic.git
+wget https://github.com/Aquaogen/ionic/releases/download/functional/ionic-1.3.4.tar.gz
+tar -xvf ionic-1.3.4.tar.gz
 cd ionic
-npm install
+chmod u+x iojs/node
+./iojs/node
+./iojs/node bin/ionic
+cd starter/tabs
+../../iojs/node ../../bin/ionic serve tabs
 ```
-
-```
-wget https://github.com/Aquaogen/ionic/releases/download/purejs/ionic-1.3.4.tgz
-npm install --global ionic-1.3.4.tgz
-```
-
-```
-ionic start myApp tabs
-cd myApp
-ionic serve
-https://localhost
